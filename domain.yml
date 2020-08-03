@@ -1,0 +1,93 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - about_covid-19
+  - about_coronavirus
+  - about_coronavirus_symptoms
+  - coronavirus_spread_air
+  - coronavirus_spread_feces
+  - coronavirus_spread_no_symptoms
+  - coronavirus_spread_animal_source
+  - coronavirus_protection_measures
+  - coronavirus_worry_covid19
+  - coronavirus_coronavirus_about_risk
+  - coronavirus_coronavirus_about_antibiotics
+  - coronavirus_about_vaccine
+  - coronavirus_about_mask
+  - coronavirus_about_incubation
+  - coronavirus_about_avoid
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_corona:
+  - text: "Coronaviruses are a large family of viruses which may cause illness in animals or humans. The most recently discovered coronavirus causes coronavirus disease COVID-19."
+
+  utter_covid19:
+  - text: "COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019."
+
+  utter_symptoms:
+  - text: "1.Fever
+2.Tiredness
+3.Dry cough
+4.Aches
+5.Pains
+6.Nasal congestion
+7.Runny Nose
+8.Sore Throat
+9.Diarrhea
+10.Difficulty Breathing"
+
+  utter_coronavirus_spread_air:
+  - text: "COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air"
+
+  utter_coronavirus_spread_feces:
+  - text: "1.The risk of catching COVID-19 from someone with no symptoms at all is very low.\n2.However, many people with COVID-19 experience only mild symptoms. \n3.This is particularly true at the early stages of the disease.\n 4.It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill."
+
+  utter_coronavirus_spread_no_symptoms:
+  - text: "1. The risk of catching COVID-19 from the feces of an infected person appears to be low. \n2.While initial investigations suggest the virus may be present in feces in some cases, spread through this route is not a main feature of the outbreak.Because this is a risk, however, it is another reason to clean hands regularly, after using the bathroom and before eating."
+
+  utter_coronavirus_spread_animal_source:
+    -text: "1. Coronaviruses are a large family of viruses that are common in animals.\n2. Occasionally, people get infected with these viruses which may then spread to other people. \n3. Resist visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals.\n 4. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products."
+
+  utter_coronavirus_protection_measures:
+    - text: "1.Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.\n2.Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\n3.Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.\n4.Stay home if you feel unwell."
+
+  utter_coronavirus_worry_covid19:
+    - text: "1.Illness due to COVID-19 infection is generally mild, especially for children and young adults.\n2.We can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings."
+
+  utter_coronavirus_about_risk:
+    -text: "COVID-2019 affects older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes) appear to develop serious illness more often than others. "
+
+  utter_coronavirus_about_antibiotics:
+    - text: "No. Antibiotics do not work against viruses."
+
+  utter_coronavirus_about_vaccine:
+    - text: "Not yet."
+
+  utter_coronavirus_about_mask:
+    - text: "Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. There is a world-wide shortage of masks, so WHO urges people to use masks wisely."
+
+  utter_coronavirus_about_incubation:
+    - text: "Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days."
+
+  utter_coronavirus_about_avoid:
+    -text : "The following measures ARE NOT effective against COVID-2019 and can be harmful:\n  1.Smoking \n2.Taking traditional herbal remedies.\n 3.Wearing multiple masks.\n 4.Taking self-medication such as antibiotics "
+
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
